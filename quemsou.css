@@ -1,0 +1,47 @@
+
+main {
+    background-image: url(imagens/danizaboenco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+    max-width: 900px;
+    min-width: 320px;
+    border-radius: 10px;;
+    padding: 70px;
+}
+
+h1 > a {
+    text-decoration: none;
+    color: var(--roxo);
+}
+
+h3 {
+    font-family: var(--fonte-corpo);
+    color: var(--roxo);
+    font-size: 2rem;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.192);
+    max-width: 500px;
+    min-width: 320px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+main > p {
+    font-family: var(--fonte-corpo);
+    line-height: 1.5rem;
+    max-width: 500px;
+    min-width: 320px;
+    padding-right: 100px;
+    margin: auto;
+}
+
+p > a {
+    color: var(--verde-escuro);
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    font-weight: bold;
+}
+

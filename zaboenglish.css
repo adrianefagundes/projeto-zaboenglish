@@ -1,0 +1,49 @@
+main ul {
+    background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: var(--fonte-corpo);
+    font-weight: bold;
+    text-align: center;
+    list-style-position: inside;
+    columns: 3;
+    line-height: 2em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.151);
+    padding: 10px;
+    margin: 10px 20px 40px;
+}
+
+h1 {
+    color: var(--roxo-medio);
+    font-family: var(--fonte-destaque);
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.24);
+    padding-top: 20px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #3e216117, #594a8c1a, #957bb817, #c4b8d00f);
+    color: var(--roxo);
+    font-family: var(--fonte-h2);
+    text-indent: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.195);
+    padding: 3px 0px;
+    border-radius: 3px;
+
+}
+
+h3 {
+    color: var(--verde-escuro);
+    font-family: var(--fonte-h3);
+    text-indent: 25px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: var(--fonte-corpo);
+    line-height: 1.6em;
+    text-indent: 25px;
+    margin: 5px;
+}
